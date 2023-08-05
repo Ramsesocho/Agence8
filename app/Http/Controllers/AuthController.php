@@ -13,11 +13,11 @@ class AuthController extends Controller
    
     public function login()
     {
-          /*  User::create([
-                'name'=>'John',
-                'email'=>'john@doe.fr',
+            User::create([
+                'name'=>'ramses',
+                'email'=>'ramsesappesse@gmail.com',
                 'password'=> Hash::make('0000')
-            ]);*/
+            ]);
             return view('auth.login');
     }
    
